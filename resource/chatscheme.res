@@ -39,7 +39,7 @@ Scheme
 		Button.ArmedTextColor							"TFDarkBrown"
 		Button.ArmedBgColor								"TFTanBright"
 		Button.DepressedTextColor						"TFDarkBrown"
-		Button.DepressedBgColor							"TFTanLight"	
+		Button.DepressedBgColor							"TFTanLight"
 		Button.FocusBorderColor							"TransparentBlack"
 		CheckButton.TextColor							"TFTextBright"
 		CheckButton.SelectedTextColor					"TFTextBright"
@@ -82,7 +82,7 @@ Scheme
 		Label.TextBrightColor							"TFTextBright"
 		Label.SelectedTextColor							"TFTextBright"
 		Label.BgColor									"Blank"
-		Label.DisabledFgColor1							"TFTextDull"	
+		Label.DisabledFgColor1							"TFTextDull"
 		Label.DisabledFgColor2							"Blank"
 		ListPanel.TextColor								"TFTextBright"
 		ListPanel.BgColor								"ListBG"
@@ -273,7 +273,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Product Sans"
+				"name"			"Inter Semi Bold"
 				"tall"			"14"
 				"yres"			"480 599"
 				"dropshadow"	"0"
@@ -282,7 +282,7 @@ Scheme
 
 			"2"
 			{
-				"name"			"Product Sans"
+				"name"			"Inter Semi Bold"
 				"tall"			"16"
 				"yres"			"600 767"
 				"dropshadow"	"0"
@@ -291,7 +291,7 @@ Scheme
 
 			"3"
 			{
-				"name"			"Product Sans"
+				"name"			"Inter Semi Bold"
 				"tall"			"18"
 				"yres"			"768 1023"
 				"dropshadow"	"0"
@@ -300,7 +300,7 @@ Scheme
 
 			"4"
 			{
-				"name"			"Product Sans"
+				"name"			"Inter Semi Bold"
 				"tall"			"18"
 				"yres"			"1024 1199"
 				"dropshadow"	"0"
@@ -309,7 +309,7 @@ Scheme
 
 			"5"
 			{
-				"name"			"Product Sans"
+				"name"			"Inter Semi Bold"
 				"tall"			"22"
 				"yres"			"1200 10000"
 				"dropshadow"	"0"
@@ -464,7 +464,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		TitleButtonBorder
 		{
 			"backgroundtype"	"0"
@@ -520,7 +520,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ScrollBarButtonDepressedBorder
 		{
 			"inset"	"0 0 0 0"
@@ -780,11 +780,11 @@ Scheme
 	CustomFontFiles
 	{
 		"1"	"resource/HALFLIFE2.ttf"
-		"2"	"resource/HL2EP2.ttf"	
+		"2"	"resource/HL2EP2.ttf"
 		"3"
 		{
-			"font" "resource/fonts/104-product-sans/ProductSans-Regular.ttf"
-			"name" "Product Sans"
-		}		
+			"font" "resource/fonts/420-inter/Inter-SemiBold.otf"
+			"name" "Inter Semi Bold"
+		}
 	}
 }

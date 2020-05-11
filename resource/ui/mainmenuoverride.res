@@ -11,8 +11,8 @@
 {
 	MainMenuOverride
 	{
-	}	
-	
+	}
+
 	//"DashboardDimmer"
 	//{
 	//	"fieldName"		"DashboardDimmer"
@@ -21,21 +21,21 @@
 	//	"wide"			"f0"
 	//	"tall"			"f0"
 	//	"visible"		"1"
-	//	
+	//
 	//	"bgcolor"			"0 0 0 0"
 	//	"bgcolor_override"	"0 0 0 0"
-	//	
+	//
 	//	"defaultBgColor_override"	"0 0 0 0"
 	//	"armedBgColor_override"		"0 0 0 0"
-	//	
+	//
 	//	"paintbackground"	"0"
 	//	"paintborder"		"0"
 	//	"paintbackgroundtype"	"0"
-	//	
+	//
 	//	"border_default"	"NoBorder"
 	//	"border_armed"		"NoBorder"
 	//}
-	
+
 	"CenterAnchor"
 	{
 		"ControlName"	"EditablePanel"
@@ -48,7 +48,7 @@
 		"visible"		"1"
 		"bgcolor_override"	"255 0 0 0"
 	}
-	
+
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -67,12 +67,12 @@
 		"enabled"		"1"
 		"fgcolor_override"	"WhiteColor"
 		"auto_wide_tocontents" "1"
-		
+
 		"pin_to_sibling" "CenterAnchor"
 		"pin_corner_to_sibling" "6" // Corner of this Element
 		"pin_to_sibling_corner" "4" // Corner of Element you are pinning to
 	}
-	
+
 	"ConsoleButton"
 	{
 		"ControlName"	"CExButton"
@@ -95,41 +95,41 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"default"		"1"
-		
+
 		"paintbackground"	"0"
 		"paintborder"		"0"
-		
+
 		"Command"	"engine toggleconsole"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"pin_to_sibling" "TitleLabel"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
 	}
-	
+
 	// Items and Loadout
 	"SetupButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SetupButton"
-		
+
 		"pin_to_sibling" "CenterAnchor"
 		"pin_corner_to_sibling" "6" // Corner of this Element
 		"pin_to_sibling_corner" "6" // Corner of Element you are pinning to
-		
+
 		"xpos"			"0"
 		"ypos"			"34"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"70"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		if_competitive
 		{
 			"ypos"		"0"
@@ -139,12 +139,12 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			
+
 			"font"			"Size 12"
-			
+
 			"wide"			"f0"
 			"tall"			"f0"
-			
+
 			"textAlignment"	"south"
 			"textinsetx"	"0"
 			"textinsety"	"-6"
@@ -152,13 +152,13 @@
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
-			
+
 			"pinCorner"		"0"
-			
+
 			"defaultFgColor_override" 	"46 43 42 0"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -174,25 +174,25 @@
 			}
 		}
 	}
-	
+
 	// Server List
 	"ServerBrowserButton"
-	{	
+	{
 		"pin_to_sibling" "SetupButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"70"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		if_competitive
 		{
 			"ypos"		"34"
@@ -201,10 +201,10 @@
 		"SubButton"
 		{
 			"font"			"Size 12"
-			
+
 			"wide"			"f0"
 			"tall"			"f0"
-			
+
 			"textAlignment"	"south"
 			"textinsetx"	"6"
 			"textinsety"	"-6"
@@ -212,11 +212,11 @@
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" 	"46 43 42 0"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -235,13 +235,13 @@
 		"pin_to_sibling" "SetupButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
-	
+
 		"xpos"			"0"
 		"ypos"			"999"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"70"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navRight"		""
@@ -250,10 +250,10 @@
 		"SubButton"
 		{
 			"font"			"Size 12"
-			
+
 			"wide"			"f0"
 			"tall"			"f0"
-			
+
 			"textAlignment"	"south"
 			"textinsetx"	"6"
 			"textinsety"	"-6"
@@ -261,11 +261,11 @@
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
-			
+
 			"defaultFgColor_override" 	"46 43 42 0"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -279,16 +279,16 @@
 			}
 		}
 	}
-	
+
 	"PVEANCHOR"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PVEANCHOR"
-		
+
 		"pin_to_sibling" "ServerBrowserButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"0"
@@ -298,34 +298,34 @@
 		"PaintBackgroundType"	"0"
 		"border"		"NoBorder"
 	}
-	
+
 	"WatchStreamButton"
 	{
 		"pin_to_sibling" "ServerBrowserButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMRIGHT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
-	
+
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"80"
 		"tall"			"70"
-		
+
 		"pinCorner"		"0"
-		
+
 		"navUp"			""
 		"navLeft"		""
 
 		"SubButton"
 		{
 			"font"			"Size 12"
-			
+
 			"labelText"		"Streams"
 			"command"		"watch_stream"
-		
+
 			"wide"			"f0"
 			"tall"			"f0"
-			
+
 			"textAlignment"	"south"
 			"textinsetx"	"6"
 			"textinsety"	"-6"
@@ -333,13 +333,13 @@
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
-			
+
 			"pinCorner"		"0"
-			
+
 			"defaultFgColor_override" 	"46 43 42 0"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -354,34 +354,34 @@
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 				"keyboardinputenabled" "0"
-			}		
+			}
 		}
-	}	
-	
-	
-	
+	}
+
+
+
 	// Store
 	"StoreButton"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"StoreButton"
-		
+
 		"pin_to_sibling" "SetupButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"70"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navLeft"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		if_competitive
 		{
 			"ypos"		"0"
@@ -391,12 +391,12 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-		
+
 			"font"			"Size 12"
-			
+
 			"wide"			"f0"
 			"tall"			"f0"
-			
+
 			"textAlignment"	"south"
 			"textinsetx"	"6"
 			"textinsety"	"-6"
@@ -404,13 +404,13 @@
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
-			
+
 			"pinCorner"		"0"
-			
+
 			"defaultFgColor_override" 	"46 43 42 0"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -426,50 +426,50 @@
 			}
 		}
 	}
-	
+
 	// Quit and Disconnect
 	"QuitButton"
 	{
 		"pin_to_sibling" "StoreButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
+
 		"font"			"Size 12"
-		
+
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"70"
-		
+
 		"command" 		"quit"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navLeft"		""
 		"navRight"		""
-		
+
 		"textAlignment"	"south"
 		"textinsetx"	"6"
 		"textinsety"	"-6"
-		
-		"labelText"		"Quit "
-		
+
+		"labelText"		"GG NO RE"
+
 		"pinCorner"		"0"
-		
+
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" 	"46 43 42 0"
 		"armedFgColor_override" 	"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
-		
+
 		"image_drawcolor"	"64 64 64 255"
 		"image_armedcolor"	"255 255 255 255"
-		
+
 		"use_proportional_insets" "1"
-		
+
 		"SubImage"
 		{
 			"xpos"			"c-17"
@@ -478,43 +478,43 @@
 			"tall"			"34"
 			"proportionaltoparent"	"1"
 			"image"			"replay/thumbnails/menu_exit"
-		}				
-	}			
-	
+		}
+	}
+
 	"DisconnectButton"
 	{
 		"pin_to_sibling" "StoreButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
+
 		"font"			"Size 12"
-		
+
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"11"
 		"wide"			"80"
 		"tall"			"70"
-		
+
 		"navUp"			""
 		"navRight"		""
-		
+
 		"textAlignment"	"south"
 		"textinsetx"	"6"
 		"textinsety"	"-6"
-		
+
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
-		
+
 		"defaultFgColor_override" 	"46 43 42 0"
 		"armedFgColor_override" 	"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
-		
+
 		"image_drawcolor"	"64 64 64 255"
 		"image_armedcolor"	"255 255 255 255"
-		
+
 		"use_proportional_insets" "1"
-		
+
 		"SubImage"
 		{
 			"xpos"			"c-17"
@@ -523,8 +523,8 @@
 			"tall"			"34"
 			"proportionaltoparent"	"1"
 			"image"			"replay/thumbnails/menu_exit"
-		}					
-	}		
+		}
+	}
 
 	"mouseoveritempanel"
 	{
@@ -541,13 +541,13 @@
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"MainMenuBGBorder"
-		
+
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -566,8 +566,8 @@
 			"centerwrap"	"1"
 		}
 	}
-	
-	
+
+
 	"CustomBG"
 	{
 		"ControlName"	"EditablePanel"
@@ -581,11 +581,11 @@
 		"bgcolor_override"	"MainBackground"
 		"alpha"			"250"
 	}
-	
+
 	"Background"
 	{
 		"fillcolor"		"MainBackground"
-		
+
 		if_halloween_0
 		{
 			"image"		""
@@ -627,11 +627,11 @@
 			"fillcolor"	"MainBackground"
 		}
 	}
-					
+
 	"TFLogoImage"
 	{
 		"visible"		"0"
-	}	
+	}
 
 	"JungleInfernoImage"
 	{
@@ -639,8 +639,8 @@
 		{
 			"visible"		"0"
 		}
-	}	
-	
+	}
+
 	"TFCharacterImage"
 	{
 		"xpos"			"r-10"
@@ -663,7 +663,7 @@
 	{
 		"xpos"			"r-10"
 	}
-	
+
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -682,34 +682,34 @@
 
 		"show_model"	"0"
 		"show_type"		"1"
-		
+
 		"pin_to_sibling" "CenterAnchor"
 		"pin_corner_to_sibling" "PIN_CENTER_BOTTOM" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_CENTER_TOP" // Corner of Element you are pinning to
 	}
-	
+
 	"CycleRankTypeButton"
 	{
 		"xpos"			"0"
 		"ypos"			"-29"
 		"zpos"			"12"
-		
+
 		"wide"			"54"
 		"tall"			"11"
-		
+
 		"paintbackground"	"0"
-		
+
 		"SubImage"
 		{
 			"xpos"			"r-10"
 			"visible"		"0"
 		}
-		
+
 		"pin_to_sibling" "RankPanel"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_CENTER_TOP" // Corner of Element you are pinning to
 	}
-	
+
 	"NoGCMessage"
 	{
 		"ControlName"	"Label"
@@ -736,13 +736,13 @@
 	"NoGCImage"
 	{
 		"xpos"			"999"
-	}	
+	}
 
 	"RankBorder"
 	{
 		"visible"		"0"
 	}
-	
+
 	"TooltipPanel"
 	{
 		"ControlName"	"EditablePanel"
@@ -755,7 +755,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MenuBorderBlack"
-		
+
 		"TipSubLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -775,7 +775,7 @@
 			"fgcolor_override"	"117 107 94 255"
 			"wrap"			"1"
 		}
-		
+
 		"TipLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -795,44 +795,44 @@
 			"fgcolor_override"	"WhiteColor"
 			"auto_wide_tocontents" "1"
 		}
-	}	
+	}
 
 	"Notifications_ShowButtonPanel"
 	{
 		"xpos"			"c15"
 		"ypos"			"c-135"
-		
+
 		"wide"			"50"
 		"tall"			"50"
-		
+
 		"SubImage"
 		{
 			"xpos"			"32"
 			"ypos"			"1"
 			"drawcolor"		"ButtonBGColorHover"
-		}			
-		
+		}
+
 		"Notifications_CountLabel"
 		{
 			"xpos"			"32"
 			"ypos"			"1"
 			"fgcolor_override"	"BlackColor"
 		}
-	
+
 		"Notifications_ShowButtonPanel_SB"
 		{
 			"wide"			"50"
 			"tall"			"50"
-			
+
 			"zpos"			"5"
-			
+
 			"labelText"		"!"
 			"font"			"MIcon 20"
-			
+
 			"defaultFgColor_override" 	"MainBackground"
 			"armedFgColor_override" 	"BlackColor"
 			"depressedFgColor_override" "MainBackground"
-			
+
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -848,7 +848,7 @@
 				"scaleImage"	"1"
 			}
 		}
-		
+
 		"IconLabel1"
 		{
 			"ControlName"	"CExLabel"
@@ -880,7 +880,7 @@
 
 		"navDown"		""		// when a sub element can't nav down it will pass through this
 		"navLeft"		""	// when a sub element can't nav left it will pass through this
-		
+
 		"pin_to_sibling" "PVEANCHOR"
 		"pin_corner_to_sibling" "PIN_TOPLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT" // Corner of Element you are pinning to
@@ -890,16 +890,16 @@
 	{
 		"xpos"			"r-10"
 	}
-	
+
 	"MOTD_ShowButtonPanel"
 	{
 		"xpos"			"r-10"
 	}
-	
+
 	"MOTD_Panel"
 	{
 		"xpos"			"r-10"
-	}	
+	}
 
 	"Notifications_Panel"
 	{
@@ -920,42 +920,42 @@
 		"navLeft"		"Notifications_ShowButtonPanel"
 		"navRight"		"MOTD_ShowButtonPanel"
 		"navToRelay"	"Notifications_CloseButton"
-		
+
 		"Notifications_CloseButton"
 		{
 			"xpos"			"190"
 			"ypos"			"5"
-			
+
 			"wide"			"14"
 			"tall"			"14"
-			
+
 			"labeltext"		"r"
 			"font"			"MIcon 16"
-			
+
 			"defaultFgColor_override" 	"GreyLight"
 			"armedFgColor_override" 	"WhiteColor"
 			"depressedFgColor_override" "GreyLight"
-			
+
 			"SubImage"
 			{
 				"visible"		"0"
-			}				
-		}		
-	
+			}
+		}
+
 		"Notifications_TitleLabel"
 		{
 			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"7"
-			
+
 			"font"			"Size 13"
-			
+
 			"fgcolor"		"WhiteColor"
-			
+
 			"wide"			"250"
 			"tall"			"14"
 		}
-		
+
 		"Notifications_Scroller"
 		{
 			"ControlName"	"ScrollableEditablePanel"
@@ -966,7 +966,7 @@
 			"tall"			"135"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"117 107 94 255"
-			
+
 			"Notifications_Control"
 			{
 				"ControlName"	"CMainMenuNotificationsControl"
@@ -979,7 +979,7 @@
 			}
 		}
 	}
-	
+
 	"VRBGPanel"
 	{
 		"xpos"			"r-10"
@@ -1055,14 +1055,14 @@
 				{
 					"fgcolor_override"	"TanDark"
 				}
-		
+
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
 					"visible"		"0"
 				}
-		
+
 				"DownButton"
 				{
 					"ControlName"	"Button"
@@ -1092,15 +1092,15 @@
 	{
 		"xpos"			"r-10"
 	}
-	
+
 	"BackgroundFooter"
 	{
 		"visible"		"0"
-	}				
+	}
 	"FooterLine"
 	{
 		"visible"		"0"
-	}	
+	}
 
 	"CharacterSetupButton"
 	{
@@ -1114,7 +1114,7 @@
 
 	"GeneralStoreButton"
 	{
-		"visible"		"0"	
+		"visible"		"0"
 	}
 
 	// TF2 Options
@@ -1122,10 +1122,10 @@
 	{
 		"xpos"			"4"
 		"ypos"			"r26"
-		
+
 		"wide"			"20"
 		"tall"			"25"
-		
+
 		"labelText"		"s"
 		"font"			"MIcon 18"
 		"textAlignment"	"center"
@@ -1134,77 +1134,77 @@
 		"navUp"			""
 		"navLeft"		""
 		"navRight"		""
-		
+
 		"pinCorner"		"0"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
+
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
 		"auto_wide_tocontents" "0"
-		
+
 		"defaultFgColor_override" 	"64 64 64 255"
 		"armedFgColor_override" 	"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
-		
+
 		"SubImage"
 		{
 			"visible"		"0"
-		}			
-	}	
-	
+		}
+	}
+
 	"TF2SettingsButton"
 	{
 		"pin_to_sibling" "SettingsButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"6"
 		"ypos"			"0"
-		
+
 		"wide"			"20"
 		"tall"			"25"
-		
+
 		"labelText"		"d"
 		"font"			"MIcon 18"
 		"textAlignment"	"center"
 		"textinsetx"	"0"
-		
+
 		"pinCorner"		"0"
 
 		"navUp"			""
 		"navLeft"		""
-		
+
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
 		"auto_wide_tocontents" "0"
-		
+
 		"defaultFgColor_override" 	"64 64 64 255"
 		"armedFgColor_override" 	"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
-		
+
 		"SubImage"
 		{
 			"visible"		"0"
-		}				
-	}	
-	
+		}
+	}
+
 	// Achievements
 	"AchievementsButton"
 	{
 		"pin_to_sibling" "TF2SettingsButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"6"
 		"ypos"			"0"
-		
+
 		"wide"			"20"
 		"tall"			"25"
-		
+
 		"labelText"		"g"
 		"font"			"MIcon 18"
 		"textAlignment"	"center"
@@ -1213,46 +1213,46 @@
 		"navUp"			""
 		"navLeft"		""
 		"navRight"		""
-		
+
 		"pinCorner"		"0"
-		
+
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 		"paintbackground"	"0"
 		"auto_wide_tocontents" "0"
-		
+
 		"defaultFgColor_override" 	"64 64 64 255"
 		"armedFgColor_override" 	"255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
-		
+
 		"SubImage"
 		{
 			"visible"		"0"
-		}				
-	}	
-	
-	// Contracts	
+		}
+	}
+
+	// Contracts
 	"CustomQuest"
 	{
 		"pin_to_sibling" "AchievementsButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"6"
 		"ypos"			"0"
-		
+
 		"wide"			"20"
 		"tall"			"25"
 		"auto_wide_tocontents" "0"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navLeft"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		"pinCorner"		"0"
-		
+
 		if_competitive
 		{
 			"ypos"		"0"
@@ -1271,13 +1271,13 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
 			"auto_wide_tocontents" "0"
-			
+
 			"textinsetx"	"0"
-			
+
 			"defaultFgColor_override" 	"64 64 64 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -1285,31 +1285,31 @@
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 	}
-	
+
 	// Streamer Mode
 	"StreamerMode"
 	{
 		"pin_to_sibling" "CustomQuest"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"6"
 		"ypos"			"0"
-		
+
 		"wide"			"20"
 		"tall"			"25"
 		"auto_wide_tocontents" "0"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navLeft"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		"pinCorner"		"0"
-		
+
 		if_competitive
 		{
 			"ypos"		"0"
@@ -1328,13 +1328,13 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
 			"auto_wide_tocontents" "0"
-			
+
 			"textinsetx"	"0"
-			
+
 			"defaultFgColor_override" 	"64 64 64 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -1342,33 +1342,33 @@
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 	}
-	
-	// Create Server	
+
+	// Create Server
 	"CreateServerButton"
 	{
 		"pin_to_sibling" "StreamerMode"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_BOTTOMRIGHT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"5"
 		"ypos"			"0"
-		
+
 		"wide"			"20"
 		"tall"			"25"
 		"auto_wide_tocontents" "0"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navLeft"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		"pinCorner"		"0"
-		
+
 		"textinsetx"	"0"
-		
+
 		if_competitive
 		{
 			"ypos"		"0"
@@ -1387,11 +1387,11 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
 			"auto_wide_tocontents" "0"
-			
+
 			"defaultFgColor_override" 	"64 64 64 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -1399,33 +1399,33 @@
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 	}
-	
+
 	// REPORT PLAYER
 	"ReportButton"
 	{
 		"pin_to_sibling" "SettingsButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"0"
 		"ypos"			"0"
-		
+
 		"wide"			"20"
 		"tall"			"25"
 		"auto_wide_tocontents" "0"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navLeft"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		"pinCorner"		"0"
-		
+
 		"textinsetx"	"0"
-		
+
 		if_competitive
 		{
 			"ypos"		"0"
@@ -1444,11 +1444,11 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
 			"auto_wide_tocontents" "0"
-			
+
 			"defaultFgColor_override" 	"64 64 64 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -1456,7 +1456,7 @@
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 	}
 
 	"VoteButton"
@@ -1464,24 +1464,24 @@
 		"pin_to_sibling" "TF2SettingsButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"0"
 		"ypos"			"0"
-		
+
 		"wide"			"20"
 		"tall"			"25"
 		"auto_wide_tocontents" "0"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navLeft"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		"pinCorner"		"0"
-		
+
 		"textinsetx"	"0"
-		
+
 		if_competitive
 		{
 			"ypos"		"0"
@@ -1500,11 +1500,11 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
 			"auto_wide_tocontents" "0"
-			
+
 			"defaultFgColor_override" 	"64 64 64 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -1512,31 +1512,31 @@
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 	}
 	"MuteButton"
 	{
 		"pin_to_sibling" "AchievementsButton"
 		"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
 		"pin_to_sibling_corner" "PIN_TOPLEFT" // Corner of Element you are pinning to
-		
+
 		"xpos"			"0"
 		"ypos"			"0"
-		
+
 		"wide"			"20"
 		"tall"			"25"
 		"auto_wide_tocontents" "0"
-		
+
 		"navUp"			""
 		"navDown"		""
 		"navLeft"		""
 		"navRight"		""
 		"navToRelay"	""
-		
+
 		"pinCorner"		"0"
-		
+
 		"textinsetx"	"0"
-		
+
 		if_competitive
 		{
 			"ypos"		"0"
@@ -1555,11 +1555,11 @@
 			"border_armed"		"NoBorder"
 			"paintbackground"	"0"
 			"auto_wide_tocontents" "0"
-			
+
 			"defaultFgColor_override" 	"64 64 64 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "255 255 255 255"
-			
+
 			"image_drawcolor"	"64 64 64 255"
 			"image_armedcolor"	"255 255 255 255"
 
@@ -1567,62 +1567,62 @@
 			{
 				"visible"	"0"
 			}
-		}	
+		}
 	}
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
 	"CallVoteButton"
 	{
 		"xpos"			"999"
-		"visible"		"0"			
-	}	
-	
+		"visible"		"0"
+	}
+
 	"MutePlayersButton"
 	{
-		"xpos"			"999"		
-		"visible"		"0"			
-	}	
-	
+		"xpos"			"999"
+		"visible"		"0"
+	}
+
 	"ReportPlayerButton"
 	{
 		"xpos"			"999"
-		"visible"		"0"			
-	}	
-	
+		"visible"		"0"
+	}
+
 	"NewUserForumsButton"
 	{
-		"visible"		"0"			
-	}		
-		
-	
+		"visible"		"0"
+	}
+
+
 	"CommentaryButton"
 	{
-		"visible"		"0"		
-	}		
-	
+		"visible"		"0"
+	}
+
 	"CoachPlayersButton"
 	{
-		"visible"		"0"			
-	}		
+		"visible"		"0"
+	}
 
 	"WorkshopButton"
 	{
-		"visible"		"0"			
-	}	
+		"visible"		"0"
+	}
 
 	"ReplayButton"
 	{
 		"visible"		"0"
 	}
-	
+
 	"ReportBugButton"
 	{
 		"visible"		"0"
-	}		
+	}
 
 	"icon_generator"
 	{
@@ -1631,7 +1631,7 @@
 
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"		
+		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"300"
 		"autoResize"		"0"
@@ -1639,7 +1639,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"useparentbg"		"1"
-	
+
 		"inset_eq_x"	"2"
 		"inset_eq_y"	"2"
 
@@ -1655,20 +1655,20 @@
 			"angles_z"		"0"
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	"ReloadMenu_Button"
 	{
 		"ControlName"	"CExImageButton"

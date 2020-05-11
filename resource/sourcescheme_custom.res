@@ -6,13 +6,13 @@ Scheme
 		{
             "1" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
             {
-                "name"         "Product Sans" [$WINDOWS] // Standard is "Lucida Console" Options are "Product Sans" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
+                "name"         "Inter Regular" [$WINDOWS] // Standard is "Lucida Console" Options are "Inter Medium" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Verdana" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "17" [$POSIX]  // "11"                
-                "tall"         "17"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Product Sans" font.
+                "tall"         "17" [$POSIX]  // "11"
+                "tall"         "17"  //good positioning is ... "net_graphpos 203" and "net_graphheight 85" and ensure you select "outline" "1" with all others off with "Inter Medium" font.
                 "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall_hidef" "20" //"20"
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "768 1023"
@@ -22,13 +22,13 @@ Scheme
             }
             "2" //For screen heights between 1024 and 1199 (eg 4:3 aspect Width 1280X1024 High, Width 1400X1050 High...    16:9 aspect Width 1920x1080 High... 16:10 aspect Width 1680x1050 High.)
             {
-                "name"         "Product Sans" [$WINDOWS] // Standard is "Lucida Console" Options are "Product Sans" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
+                "name"         "Inter Medium" [$WINDOWS] // Standard is "Lucida Console" Options are "Inter Medium" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Arial" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "14" [$POSIX]  // "11"                
+                "tall"         "14" [$POSIX]  // "11"
                 "tall"         "14"  // good positioning is ... net_graphheight 87 and net_graphpos 210 and ensure you select "outline" "1" with all others off with Ariel font.
                 "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall_hidef" "20" //"20"
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1024 1199"
@@ -36,15 +36,15 @@ Scheme
                 "additive"     "0"  //not default added //This adds white to font...sort of a glow effect on coloured fonts and gives a washed out pastel look
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
-            "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond) 
+            "3" //For screen heights between 1200 and 6000 (6000...wow that's freaking huge!) (eg 4:3 aspect Width 1600X1200 High... 16:10 aspect Width 1920x1200 High.... and beyond)
             {
-                "name"         "Product Sans" [$WINDOWS] // Standard is "Lucida Console" Options are "Product Sans" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
+                "name"         "Inter Medium" [$WINDOWS] // Standard is "Lucida Console" Options are "Inter Medium" "Georgia" "Impact" "Arial MT" and the best for small = "Haettenschweiler" but is a MS office and Win7 font, can be downloaded, google "Haettenschweiler" and install in C:/Windows/Fonts
                 "name"         "Lucida Console" [$X360]    //"Lucida Console"
                 "name"         "Arial" [$POSIX] // Apple Mac OS "Verdana" (default) Best small font = "Georgia" and "Arial" Mac Installation location: /Library/Fonts and is default on Mac OS
-                "tall"         "15" [$POSIX]  // "11"                
+                "tall"         "15" [$POSIX]  // "11"
                 "tall"         "15" // good positioning is ... net_graphheight 95 and net_graphpos 225 and ensure you select "outline" "1" with all others off with Ariel font.
                 "tall_lodef" "15" //"15"
-                "tall_hidef" "20" //"20"                
+                "tall_hidef" "20" //"20"
                 "weight"     "0"
                 "range"         "0x0000 0x017F" //    Basic Latin, Latin-1 Supplement, Latin Extended-A
                 "yres"         "1200 6000"
@@ -53,7 +53,7 @@ Scheme
                 "antialias"  "0"  //not default added //smoothing the edges.
             }
 		}
-	
+
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
@@ -69,7 +69,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"19"
 				"weight"	"500"
 				"antialias"	"1"
@@ -80,7 +80,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -93,7 +93,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"17"
 				"weight"	"500"
 				"antialias" "1"
@@ -104,7 +104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -112,7 +112,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -120,7 +120,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"17"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -129,7 +129,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -138,7 +138,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -146,8 +146,8 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
-				
+
+
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
@@ -160,7 +160,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		AchievementItemTitleLarge	[$WIN32]
 		{
 			"1"
@@ -173,7 +173,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		AchievementItemDescription	[$WIN32]
 		{
 			"1"
@@ -186,9 +186,9 @@ Scheme
 				"antialias"		"1" [!$OSX]
 			}
 		}
-		
-		
-		
+
+
+
 		"DebugFixed"
 		{
 			"1"
@@ -233,7 +233,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"17"
 				"weight"	"0"
 				"antialias"	"1"
@@ -272,7 +272,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"22"
 				"weight"	"500"
 				"antialias"	"1"
@@ -312,7 +312,7 @@ Scheme
 				"outline" "1"
 			}
 		}
-		
+
 		"AchievementTitleFontSmaller"
 		{
 			"1"
@@ -324,8 +324,8 @@ Scheme
 				//"outline" "1"
 			}
 		}
-		
-		
+
+
 		"AchievementDescriptionFont"
 		{
 			"1"
@@ -347,7 +347,7 @@ Scheme
 				"yres"	 "481 10000"
 			}
 		}
-		
+
 		GameUIButtons
 		{
 			"1"	[$X360]
@@ -366,7 +366,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"17"
 				"weight"	"500"
 				"antialias"	"1"
@@ -604,7 +604,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		StatsTitle	[$WIN32]
 		{
 			"1"
@@ -616,7 +616,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		StatsText	[$WIN32]
 		{
 			"1"
@@ -641,7 +641,7 @@ Scheme
 			}
 		}
 
-		
+
 		StatsPageText
 		{
 			"1"
@@ -656,1371 +656,1371 @@ Scheme
 		}
 
 		//
-		//////////////////// PRODUCT SANS REGULAR //////////////////////////////
+		//////////////////// Inter Medium REGULAR //////////////////////////////
 		//
-		
+
 		"product1"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"1"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product1blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"1"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product2"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"2"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product2blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"2"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product3"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"3"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product3blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"3"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product4"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"4"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product4blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"4"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product5"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"5"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product5blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"5"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product6"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"6"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product6blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"6"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product7"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"7"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product7blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"7"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product8"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"8"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product8blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"8"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product9"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"9"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product9blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"9"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product10"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"10"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product10blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"10"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product11"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"11"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product11blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"11"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product12"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"12"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product12blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"12"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product13"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"13"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product13blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"13"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product14"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"14"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product14blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"14"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product15"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"15"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product15blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"15"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product16"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"16"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product16blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"16"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product17"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"17"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product17blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"17"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product18"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"18"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product18blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"18"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product19"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"19"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product19blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"19"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product20"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"20"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product20blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"20"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product21"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"21"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product21blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"21"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product22"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"22"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product22blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"22"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product23"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"23"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product23blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"23"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product24"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"24"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product24blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"24"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product25"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"25"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product25blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"25"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product26"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"26"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product26blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"26"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product27"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"27"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product27blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"27"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product28"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"28"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product28blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"28"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product29"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"29"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product29blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"29"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product30"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"30"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product30blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"30"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product31"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"31"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product31blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"31"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product32"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"32"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product32blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"32"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product33"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"33"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product33blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"33"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product34"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"34"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product34blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"34"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product35"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"35"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product35blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"35"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product36"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"36"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product36blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"36"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product37"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"37"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product37blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"37"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product38"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"38"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product38blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"38"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product39"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"39"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product39blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"39"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product40"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"40"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product40blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"40"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product41"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"41"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product41blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"41"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product42"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"42"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product42blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"42"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product43"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"43"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product43blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"43"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product44"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"44"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product44blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"44"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product45"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"45"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product45blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"45"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product46"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"46"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product46blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"46"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product47"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"47"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product47blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"47"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product48"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"48"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product48blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"48"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product49"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"49"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product49blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"49"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product50"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"50"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product50blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"50"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product51"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"51"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product51blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"51"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product52"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"52"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product52blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"52"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product53"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"53"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product53blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"53"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product54"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"54"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product54blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"54"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product55"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"55"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product55blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"55"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product56"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"56"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product56blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"56"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product57"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"57"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product57blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"57"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product58"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"58"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product58blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"58"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 		"product59"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"59"
 				"additive"  "0"
 				"antialias"	"1"
 			}
 		}
-		
+
 		"product59blur"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Inter Medium"
 				"tall"		"59"
 				"additive"  "0"
 				"antialias"	"1"
 				"blur"		"2"
 			}
 		}
-		
+
 	}
-	
+
 	CustomFontFiles
 	{
-		"6" 
+		"6"
 		{
 			"font" "resource/TF2Build.ttf"
 			"name" "TF2 Build"
@@ -2079,12 +2079,12 @@ Scheme
 			"russian"
 			{
 				"range" "0x0000 0x0451"
-			}	
+			}
 		}
 		"7"
 		{
-			"font" "resource/fonts/104-product-sans/ProductSans-Regular.ttf"
-			"name" "Product Sans"
-		}	
+			"font" "resource/fonts/420-inter/Inter Medium"
+			"name" "Inter Medium"
+		}
 	}
 }

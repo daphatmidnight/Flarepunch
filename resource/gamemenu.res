@@ -16,7 +16,7 @@
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"tooltip" "Fuck, everyone press F1"
 	}
 	"MutePlayersButton"
 	{
@@ -42,67 +42,67 @@
 		"subimage"		"glyph_alert"
 		"tooltip"		"#MMenu_ReportPlayer"
 	}
-	
-	
+
+
 	// CUSTOM
-	
+
 	"ServerBrowserButton"
 	{
-		"label" "Server List" 
+		"label" "Server List"
 		"command" "OpenServerBrowser"
 		"subimage" "replay/thumbnails/menu_server"
 		"OnlyAtMenu" "0"
-	} 
+	}
 	"ChangeServerButton"
 	{
-		"label" "Server List" 
+		"label" "Server List"
 		"command" "OpenServerBrowser"
 		"subimage" "replay/thumbnails/menu_server"
 		"OnlyInGame" "1"
 	}
-	
+
 	"CreateServerButton"
 	{
 		"label" "+"
 		"command" "OpenCreateMultiplayerGameDialog"
 		"OnlyAtMenu" "1"
-		"tooltip" "Create Server"
+		"tooltip" "go to cp reckoner"
 	}
 	"StoreButton"
 	{
 		"label" "Store"
 		"command" "engine open_store"
 		"subimage" "replay/thumbnails/menu_store"
-	}	
+	}
 	"SetupButton"
 	{
 		"label" "Loadout"
 		"command" "engine open_charinfo"
 		"subimage" "replay/thumbnails/menu_items"
 	}
-	
+
 	"CustomQuest"
 	{
 		"label" 	"T"
 		"command" 	"questlog"
 		"subimage" 	"replay/thumbnails/menu_items"
-		"tooltip" 	"Contracts"
+		"tooltip" 	"Contrax"
 	}
 	"StreamerMode"
 	{
 		"label" 	"5"
 		"command" 	"engine toggle cl_hud_minmode"
 		"subimage" 	"replay/thumbnails/menu_items"
-		"tooltip" 	"Enable/Disable Streamer Mode"
+		"tooltip" 	"Hide/Show Naughty Names b/c twitch lol"
 	}
-	
+
 	"VoteButton"
 	{
 		"label"			"A"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" 		"icon_checkbox"
-		"tooltip" 		"#MMenu_CallVote"
+		"tooltip" 		"Everyone, press F1 bls"
 	}
 	"MuteButton"
 	{
@@ -110,7 +110,7 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" 		"glyph_muted"
-		"tooltip" 		"#MMenu_MutePlayers"
+		"tooltip" 		"Shush!"
 	}
 	"ReportButton"
 	{
@@ -118,6 +118,6 @@
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
+		"tooltip"		"Report a hackerman"
 	}
 }

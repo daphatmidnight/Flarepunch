@@ -5,7 +5,7 @@
 	{
 		"TextFont"				"Size 13"
 		"TextFont_minmode"		"BlankFont"
-	
+
 		"xpos"	 "r634"	[$WIN32]
 		"ypos"	 "33"	[$WIN32]
 		"xpos"	 "r634"	[$X360]
@@ -16,10 +16,10 @@
 		"MaxDeathNotices" "7"
 		"LineHeight"	  "14"
 		"LineSpacing"	  "1"
-		"CornerRadius"	  "0"
-		
-		"TeamBlue"		"33 150 243 255"
-		"TeamRed"		"244 67 54 255"
+		"CornerRadius"	  "3"
+
+		"TeamBlue"		"32 105 244 255"
+		"TeamRed"		"244 32 105 255"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
