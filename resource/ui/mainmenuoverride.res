@@ -611,6 +611,11 @@
 			"image"		""
 			"fillcolor"	"MainBackground"
 		}
+		if_halloween_5
+		{	
+			"image"		""
+			"fillcolor"	"MainBackground"
+		}
 		if_fullmoon
 		{
 			"image"		""
